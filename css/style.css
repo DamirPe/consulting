@@ -9066,7 +9066,7 @@ h4 + .owl-carousel {
 	align-items: center;
 	-webkit-justify-content: space-between;
 	-ms-flex-pack: justify;
-	justify-content: space-between;
+	justify-content: flex-end;
 }
 
 .rd-navbar-static .rd-navbar-top-panel__content > *,
@@ -18472,6 +18472,12 @@ h3 + .card-custom-group-wrap {
 	}
 }
 
-#navBarHomePage {
-	justify-content: flex-end;
+div.navLogo {
+	position: absolute;
+}
+
+div#navBarHomePage {
+	display: flex;
+	justify-content: center;
+	padding-left: 0px;
 }
