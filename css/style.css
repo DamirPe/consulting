@@ -11899,7 +11899,8 @@ html.boxed .rd-navbar--is-clone {
 
 .ui-to-top, .ui-to-top:active, .ui-to-top:focus {
 	color: #fff;
-	background: #d91119;
+	background: #0088ff;
+	border-radius: 6px;
 }
 
 .ui-to-top:hover {
@@ -18459,6 +18460,7 @@ h3 + .card-custom-group-wrap {
 	.landing-jumbotron .subtitle-wrapper + * {
 		margin-top: 35px;
 	}
+
 }
 
 @media (min-width: 1200px) {
@@ -18470,11 +18472,11 @@ h3 + .card-custom-group-wrap {
 	.landing-jumbotron .subtitle-wrapper {
 		margin-top: -21px;
 	}
+	div.navLogo {
+		position: absolute;
+	}
 }
 
-div.navLogo {
-	position: absolute;
-}
 
 div#navBarHomePage {
 	display: flex;
